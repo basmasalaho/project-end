@@ -1,8 +1,5 @@
 import React from "react";
-import instagramIcon from "../imgs/instagram.svg";
-import twitterIcon from "../imgs/twitter.svg";
-import linkedinIcon from "../imgs/linkedin.svg";
-import facebookIcon from "../imgs/facebook.svg";
+import { FaInstagram, FaTwitter, FaLinkedinIn, FaFacebookF } from "react-icons/fa";
 
 const SocialMedia = () => {
   return (
@@ -14,16 +11,16 @@ const SocialMedia = () => {
 
         <div className="flex justify-center gap-6 mt-8">
           <a href="#" className="bg-[#E1306C] p-2 rounded-full hover:opacity-90 transition-opacity">
-            <img src={instagramIcon} alt="Instagram" className="w-6 h-6" />
+            <FaInstagram className="text-white w-6 h-6" />
           </a>
           <a href="#" className="bg-[#1DA1F2] p-2 rounded-full hover:opacity-90 transition-opacity">
-            <img src={twitterIcon} alt="Twitter" className="w-6 h-6" />
+            <FaTwitter className="text-white w-6 h-6" />
           </a>
           <a href="#" className="bg-[#0077B5] p-2 rounded-full hover:opacity-90 transition-opacity">
-            <img src={linkedinIcon} alt="LinkedIn" className="w-6 h-6" />
+            <FaLinkedinIn className="text-white w-6 h-6" />
           </a>
           <a href="#" className="bg-[#4267B2] p-2 rounded-full hover:opacity-90 transition-opacity">
-            <img src={facebookIcon} alt="Facebook" className="w-6 h-6" />
+            <FaFacebookF className="text-white w-6 h-6" />
           </a>
         </div>
       </div>
