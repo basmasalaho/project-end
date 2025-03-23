@@ -1,4 +1,8 @@
 import React from "react";
+import instagramIcon from "../imgs/instagram.svg";
+import twitterIcon from "../imgs/twitter.svg";
+import linkedinIcon from "../imgs/linkedin.svg";
+import facebookIcon from "../imgs/facebook.svg";
 
 const SocialMedia = () => {
   return (
@@ -10,16 +14,16 @@ const SocialMedia = () => {
 
         <div className="flex justify-center gap-6 mt-8">
           <a href="#" className="bg-[#E1306C] p-2 rounded-full hover:opacity-90 transition-opacity">
-            <img src="../src/imgs/instagram.svg" alt="Instagram" className="w-6 h-6" />
+            <img src={instagramIcon} alt="Instagram" className="w-6 h-6" />
           </a>
           <a href="#" className="bg-[#1DA1F2] p-2 rounded-full hover:opacity-90 transition-opacity">
-            <img src="../src/imgs/twitter.svg" alt="Twitter" className="w-6 h-6" />
+            <img src={twitterIcon} alt="Twitter" className="w-6 h-6" />
           </a>
           <a href="#" className="bg-[#0077B5] p-2 rounded-full hover:opacity-90 transition-opacity">
-            <img src="../src/imgs/linkedin.svg" alt="LinkedIn" className="w-6 h-6" />
+            <img src={linkedinIcon} alt="LinkedIn" className="w-6 h-6" />
           </a>
           <a href="#" className="bg-[#4267B2] p-2 rounded-full hover:opacity-90 transition-opacity">
-            <img src="../src/imgs/facebook.svg" alt="Facebook" className="w-6 h-6" />
+            <img src={facebookIcon} alt="Facebook" className="w-6 h-6" />
           </a>
         </div>
       </div>

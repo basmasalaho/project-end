@@ -1,5 +1,6 @@
 import React from "react";
 import abstractIcon from "../imgs/Abstract.svg";
+import logoImage from "../imgs/logo.svg";
 
 const ContactUs = () => {
   return (
@@ -16,7 +17,7 @@ const ContactUs = () => {
           <div className="w-full md:w-1/2 flex justify-center">
             <div className="w-full max-w-[400px]">
               <img 
-                src="../src/imgs/logo.svg" 
+                src={logoImage}
                 alt="إيجار" 
                 className="w-full"
               />

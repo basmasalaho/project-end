@@ -1,11 +1,12 @@
 import React from "react";
+import homeImage from "../imgs/Image.svg";
+import mapImage from "../imgs/Map.svg";
 
 const HeroSection = () => {
   return (
     <div 
-      className="relative bg-white py-16 overflow-hidden"
       style={{
-        backgroundImage: 'url("../src/imgs/Map.svg")',
+        backgroundImage: `url(${mapImage})`,
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
         backgroundSize: '30%',  // تم تغييرها من 'cover' إلى '50%'
@@ -15,7 +16,7 @@ const HeroSection = () => {
       <div className="container mx-auto px-4 flex flex-col md:flex-row-reverse items-center">
         {/* صورة المنزل */}
         <div className="w-full md:w-1/2 mb-10 md:mb-0">
-          <img src="..\src\imgs\Image.svg" alt="نموذج منزل" className="max-w-full" />
+          <img src={homeImage} alt="نموذج منزل" className="max-w-full" />
         </div>
         
         {/* النص الترويجي */}
